@@ -1,0 +1,14 @@
+/* _header.scss */
+header {
+  padding: 2rem;
+  background: #000;
+}
+header h1 {
+  font-style: 3rem;
+}
+
+/* style.scss */
+.button {
+  background: #0bd;
+}
+/*# sourceMappingURL=style.css.map */

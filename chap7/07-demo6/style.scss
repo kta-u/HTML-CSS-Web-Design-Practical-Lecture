@@ -1,0 +1,13 @@
+@mixin desktop {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+
+h2 {
+    font-style: 2rem;
+
+    @include desktop {
+        font-size: 5rem;
+    }
+}
